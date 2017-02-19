@@ -73,6 +73,7 @@ deploy:
   branch: master
 
 duoshuo_shortname: glee0413
+duoshuo_share: true
 baidu_analytics: ec30a044f2f69aacc83c0b70ea53e01a
 
 feed:
@@ -81,3 +82,9 @@ feed:
   limit: 20
   hub:
   content:
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
