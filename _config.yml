@@ -7,7 +7,7 @@ title: 月隐江楼的小楼
 subtitle: 随想 妄想 梦想
 description: 随笔记录技术与家庭
 author: 月隐江楼
-language: 
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +71,13 @@ deploy:
   type: git
   repo: https://github.com/glee0413/glee0413.github.io.git
   branch: master
+
+duoshuo_shortname: glee0413
+baidu_analytics: ec30a044f2f69aacc83c0b70ea53e01a
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
