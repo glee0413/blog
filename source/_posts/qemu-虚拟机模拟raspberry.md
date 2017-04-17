@@ -17,6 +17,7 @@ apt-get install qemu binfmt-support qemu-user-static
 ```
 https://github.com/dhruvvyas90/qemu-rpi-kernel
 ```
+<!-- more -->
 ## 4，修改系统配置
 ### 4.1 将镜像文件映射成loop设备文件
 ```
@@ -25,7 +26,6 @@ sudo kpartx -av 2016-09-23-raspbian-jessie.img
 sudo mount /dev/mapper/loop0p2 rootfs
 cd rootfs
 ```
-<!-- more -->
 
 ### 4.1 将etc/fstab文件中的mmcblk的挂载注释掉
 ```
