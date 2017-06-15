@@ -72,8 +72,8 @@ deploy:
   repo: https://github.com/glee0413/glee0413.github.io.git
   branch: master
 
-duoshuo_shortname: glee0413
-duoshuo_share: true
+# duoshuo_shortname: glee0413
+# duoshuo_share: true
 baidu_analytics: ec30a044f2f69aacc83c0b70ea53e01a
 
 feed:
