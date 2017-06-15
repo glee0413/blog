@@ -24,6 +24,9 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-proposed main multive
 deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main multiverse restricted universe
 deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main multiverse restricted universe
 ```
+
+<!-- more -->
+
 ### 编辑DockerFile文件
 ```
 FROM ubuntu:16.04
